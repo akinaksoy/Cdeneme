@@ -4,9 +4,13 @@
 
 int main(int argc, char** argv) {
 	
-	int a ; 
+	int a,b ; 
 	printf("Bir sayi giriniz : ");
-	
+	scanf("%d",&a);
+	printf("ikinci sayi giriniz : ");
+	scanf("%d",&b);
+	int c = a+b;
+	printf("iki sayinin toplami = %d",c);
 	
 	
 	
