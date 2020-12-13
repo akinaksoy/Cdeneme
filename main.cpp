@@ -26,6 +26,14 @@ int main(int argc, char** argv) {
 	
 	printf("Donem ortalamasi = %d",ortalama);
 	
+	// carpma
+	
+	printf("1.sayiyi giriniz : ");
+	scanf("%d",&a);
+	printf("2. sayiyi giriniz : ");
+	scanf("%d",&b);
+	
+	printf("carpim sonucu : %d",a*b);
 	
 	
 	
